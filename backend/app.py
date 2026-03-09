@@ -7,7 +7,7 @@ import numpy as np
 import joblib
 import json
 import os
-from config import Config
+from backend.config import Config
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
