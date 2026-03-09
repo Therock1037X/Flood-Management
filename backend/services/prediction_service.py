@@ -1,4 +1,5 @@
 import numpy as np
+from backend.utils.model_loader import load_model
 from backend.services.data_service import get_all_data
 
 model, encoder = load_model()
