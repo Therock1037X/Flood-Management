@@ -1,5 +1,5 @@
 from flask import Blueprint, request, jsonify
-from services.prediction_service import predict_flood_risk
+from backend.services.prediction_service import predict_flood_risk
 
 prediction_bp = Blueprint("prediction", __name__)
 

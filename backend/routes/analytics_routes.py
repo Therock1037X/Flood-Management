@@ -1,5 +1,5 @@
 from flask import Blueprint, jsonify
-from services.data_service import get_all_data
+from backend.services.data_service import get_all_data
 
 analytics_bp = Blueprint("analytics", __name__)
 
