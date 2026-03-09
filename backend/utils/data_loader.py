@@ -1,5 +1,5 @@
 import pandas as pd
-from config import Config
+from backend.config import Config
 
 
 def load_wards_data():
