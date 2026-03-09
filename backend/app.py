@@ -1,6 +1,6 @@
-from routes.prediction_routes import prediction_bp
-from routes.analytics_routes import analytics_bp
-from routes.simulation_routes import simulation_bp
+from backend.routes.prediction_routes import prediction_bp
+from backend.routes.analytics_routes import analytics_bp
+from backend.routes.simulation_routes import simulation_bp
 from flask import Flask, render_template, jsonify, request
 import pandas as pd
 import numpy as np
