@@ -1,5 +1,5 @@
 import joblib
-from config import Config
+from backend.config import Config
 
 def load_model():
     """
