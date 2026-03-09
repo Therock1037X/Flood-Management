@@ -1,4 +1,4 @@
-from utils.data_loader import load_all_data
+from backend.utils.data_loader import load_all_data
 
 
 def get_all_data():

@@ -1,5 +1,5 @@
 import numpy as np
-from utils.data_loader import load_wards_data
+from backend.utils.data_loader import load_wards_data
 
 
 def generate_alerts():
